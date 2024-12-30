@@ -1,0 +1,98 @@
+.exp-ellipse-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    z-index: -99;
+    margin-bottom: -15%;
+}
+.exp-horizon {
+    margin-top: 70vh;
+    z-index: -99;
+}
+.exp-pink {
+    margin-top: 45vh;
+    z-index: -99;
+}
+.exp-white {
+    margin-top: 35vh;
+    z-index: -99;
+}
+#experience {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.exp-timeline-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.exp-timeline-half {
+    width: 45vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.flex-right {
+    align-items: end;
+}
+.timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100em;
+    width: 2px;
+    background-image: linear-gradient(
+        #666666 0%,
+        #666666 25%,
+        #000000 25%,
+        #000000 50%,
+        #666666 50%,
+        #666666 75%,
+        #000000 75%,
+        #000000 100%
+    );
+    background-size: 100% 15px;
+}
+.exp-timeline {
+    width: 4px;
+    background-color: var(--pink);
+}
+
+/* EXP CARD */
+.exp-card-wrapper {
+    width: 40vw;
+    height: 25rem;
+    padding: 2rem;
+}
+.wrapper-right {
+    text-align: end;
+}
+.exp-card-num {
+    color: var(--pink);
+    font-size: 1.5rem;
+}
+.exp-card-title {
+    margin-bottom: -.5rem;
+}
+.exp-card-org {
+    font-size: calc(var(--base-size) * 1.1);
+    font-weight: 300;
+    letter-spacing: .7rem;
+    color: var(--pink);
+}
+.text-right {
+    justify-content: right;
+}
+.exp-see-more {
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--pink);
+        transition: .5s;
+    }
+}

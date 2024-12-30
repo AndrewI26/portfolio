@@ -1,0 +1,116 @@
+#projects {
+    text-align: center;
+    padding: 0 10vw;
+    height: 100%;
+    margin-top: 100px;
+}
+.project-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: -40vw;
+}
+.desc-wrapper {
+    padding: 1rem 1.5rem;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 40vw;
+}
+.project-card-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: none;
+}
+.left-project {
+    align-items: start;
+    text-align: left;
+}
+.right-project {
+    align-items: end;
+    text-align: right;
+}
+.projects-img {
+    width: 40vw;
+    flex: none;
+}
+.left-img {
+    margin-right: -40vw;
+    
+}
+.right-img {
+    margin-left: -40vw;
+}
+.project-skills {
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1rem;
+}
+.skill {
+    font-weight: 300;
+    font-size: var(--base-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+.grey {
+    color: var(--grey)
+}
+.project-heading {
+    margin-bottom: 1.7rem;
+}
+.background-img-static {
+    width: 40vw;
+    height: 22.5vw;
+    background-size: 'cover';
+}
+.hover-img {
+    background: url("/flashcards-vid.mov");
+}
+.button {
+  position: relative;
+  height: 60px;
+  width: 100px;
+  background: rgba(178, 113, 113, 0);
+}
+.button:before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 48.5%;
+  right: 24px;
+  transition: all 0.3s ease;
+}
+.button:hover:before {
+  right: 34px;
+  width: 35px;
+}
+.button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  right: 20px;
+  transition: all 0.3s ease;
+}
+.button:hover:after {
+  right: 34px;
+  right: 30px;
+}
+.flex {
+    display: flex;
+}

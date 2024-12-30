@@ -1,0 +1,38 @@
+#skills {
+    padding: 0 10vw;
+    z-index: 1000;
+}
+.skill-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+.lang-wrapper {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.framework-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.center {
+    text-align: center;
+}
+.purple {
+    scale: 0;
+    width: 80vw;
+    height: 30vh;
+    margin-top: -20vh;
+    z-index: -10;
+    background: radial-gradient(ellipse at center, #7642DD -150%, black 80%);
+}
