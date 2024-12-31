@@ -13,8 +13,8 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Experience() {
     useGSAP(() => {
         gsap.to([".exp-timeline"], {
-            height: '100em',
-            delay: 3,
+            height: '105em',
+            delay: 100,
             scrollTrigger: {
                 trigger: ".timeline-wrapper",
                 start: 'top center',
@@ -54,12 +54,21 @@ export default function Experience() {
                     />
                     <ExperienceCard 
                         number="03"
-                        title="Foodland"
-                        org="Cashier & Shelf Stocker"
-                        description="Spent four years working as a cashier and shelf stocker at a local grocery store. Received the Sobeys Scholarship ($1500) for my outstanding work both inside and outside the workplace. Served customers with a friendly attitude."
-                        link="https://foodland.ca"
+                        title="FTC Robotics Team"
+                        org="SOFTWARE LEAD"
+                        description="Led a team of 4 to build a fully functioning robot that could successfully pick up cones and place them on large poles. Programmed a fully autonomous mode, where the robot took telemetry from color sensors to navigate a maze with no human input. Designed software allowing the robot to be controlled using controller input. Created 8 pages of documentation with details about how to set up and configure the robot, which my teacher continues to use as a guide for the team. "
+                        link="https://github.com/Haaniyaahmed/iBMS-Website"
                         isLeft={true}
                         isHidden={false}
+                    />
+                    <ExperienceCard 
+                        number=""
+                        title=""
+                        org=""
+                        description=""
+                        link=""
+                        isLeft={true}
+                        isHidden={true}
                     />
                 </div>
                 <div className="timeline-wrapper">
@@ -92,6 +101,15 @@ export default function Experience() {
                         link=""
                         isLeft={false}
                         isHidden={true}
+                    />
+                    <ExperienceCard 
+                        number="04"
+                        title="Foodland"
+                        org="CASHIER & SHELF STOCKER"
+                        description="Spent four years working as a cashier and shelf stocker at a local grocery store. Received the Sobeys Scholarship ($1500) for my outstanding work both inside and outside the workplace. Served customers with a friendly attitude."
+                        link="https://foodland.ca"
+                        isLeft={false}
+                        isHidden={false}
                     />
                 </div>
             </div>

@@ -11,11 +11,12 @@ export default function Hero() {
         gsap.to([".hero-title", ".hero-subtitle", ".hero-small"], {
           opacity: 0,
           scale: .8,
+          margin: "-1px",
           delay: 5,
           scrollTrigger: {
-            trigger: ".hero-title",
-            start: 'top 25%',
-            end: 'top -10%',
+            trigger: ".hero-container",
+            start: 'top 10%',
+            end: 'top -50%',
             scrub: 2,
           },
         });

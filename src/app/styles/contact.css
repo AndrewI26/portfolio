@@ -22,3 +22,9 @@
     display: flex;
     justify-content: center;
 }
+.con-text {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+    color: var(--grey);
+}

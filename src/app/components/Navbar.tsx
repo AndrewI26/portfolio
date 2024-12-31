@@ -1,6 +1,9 @@
 import Link from 'next/link'
 
 export default function Navbar() {
+    const handleClick = () => {
+        window.open("/res.pdf", '_blank');
+    }
     return (
         <div className='nav-total'>
             <div className='nav-container'>
@@ -17,8 +20,8 @@ export default function Navbar() {
                     <p className='nav-title'>Contact</p>
                 </Link>
             </div>
-            <div className='nav-button'>
-                <p className='nav-button-text'>Resume</p>
+            <div className='nav-button pointer' onClick={handleClick}>
+                <p className='nav-button-text' >Resume</p>
             </div>
         </div>
     )

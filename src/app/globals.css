@@ -117,3 +117,6 @@ h1, h3, h6, p {
     background-position: 0% 50%;
   }
 }
+.pointer {
+  cursor: pointer;
+}

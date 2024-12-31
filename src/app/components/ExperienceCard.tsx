@@ -19,7 +19,7 @@ export default function ExperienceCard({number, title, org, description, link, i
             <h3 className="exp-card-title subheading">{title}</h3>
             <h3 className="exp-card-org">{org}</h3>
             <div><p className={descClassName}>{description}</p></div>
-            <SeeMore link={link}/>
+            {number == "03" || number == "04" ? <></> : <SeeMore link={link}/>}
         </div>
     )
 }

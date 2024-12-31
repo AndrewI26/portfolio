@@ -1,6 +1,6 @@
 import ProjectsSkill from "./ProjectsSkill"
 import ProjectsImg from "./ProjectsImg"
-import SeeMore from "./SeeMore"
+import Github from "./Github"
 
 type cardProps = {
     name: string;
@@ -32,6 +32,7 @@ export default function ProjectsCard({name, desc, skills, isLeft, picLink, vidLi
             {isLeft ? 
                 <>
                     <div className={infoWrapperStyle}>
+                        <h3 className="feat">FEATURED PROJECT</h3>
                         <h3 className="subheading project-heading">{name}</h3>
                         <div className="desc-wrapper">
                             <p>{desc}</p>
@@ -39,7 +40,7 @@ export default function ProjectsCard({name, desc, skills, isLeft, picLink, vidLi
                         <div className="project-skills">
                             {skillsDisplay}
                         </div>
-                        <SeeMore link={link}/>
+                        <Github link={link}/>
                     </div>
                     <ProjectsImg vidLink={vidLink} picLink={picLink} isLeft={true}/>
                 </>
@@ -47,6 +48,7 @@ export default function ProjectsCard({name, desc, skills, isLeft, picLink, vidLi
                 <>
                     <ProjectsImg vidLink={vidLink} picLink={picLink} isLeft={false}/>
                     <div className={infoWrapperStyle}>
+                        <h3 className="feat">FEATURED PROJECT</h3>
                         <h3 className="subheading project-heading">{name}</h3>
                         <div className="desc-wrapper">
                             <p>{desc}</p>
@@ -55,7 +57,7 @@ export default function ProjectsCard({name, desc, skills, isLeft, picLink, vidLi
                             {skillsDisplay}
                         </div>
                         <div style={{height: "10px"}}></div>
-                        <SeeMore link={link}/>
+                        <Github link={link}/>
                     </div>
                 </>
             }
