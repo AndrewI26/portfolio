@@ -10,6 +10,7 @@ export default function ProjectsImg({vidLink, picLink, isLeft}:{vidLink: string,
         width: '48vw',
         height: '27vw',
         backgroundSize: 'cover',
+        
     }
     const img = isLeft ? "right-img image" : "left-img image"
     return (
