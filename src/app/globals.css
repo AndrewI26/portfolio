@@ -62,8 +62,8 @@ h1, h3, h6, p {
   position: absolute;
   right: 1.3rem;
   &:hover {
-    -webkit-box-shadow: 0px 0px 17px 5px #FFFFFF; 
-    box-shadow: 0px 0px 17px 5px #FFFFFF;
+    -webkit-box-shadow: 0px 0px 7px 1px #FFFFFF; 
+    box-shadow: 0px 0px 7px 1px #FFFFFF;
     transition: .2s;
   }
 }
