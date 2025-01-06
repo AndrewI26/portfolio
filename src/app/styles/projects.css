@@ -16,7 +16,7 @@
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    max-width: 40vw;
+    max-width: 35vw;
 }
 .project-card-info-wrapper {
     display: flex;
@@ -123,9 +123,12 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgba(125, 125, 125, 0.46);
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     &:hover {
-        background-color: var(--pink);
+        background-color: var(--hover-color);
     }
     display: flex;
     justify-content: center;

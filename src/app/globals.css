@@ -2,14 +2,17 @@
   --pink: #FF74FD;
   --grey: #A9A9A9;
   --base-size: 1rem;
+  --hover-color: rgba(255, 255, 255, 0.385);
 }
 body {
   margin: 0;
   padding: 0;
   background-color: black;
+  
 }
 a {
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 ::selection {
   background: rgb(225, 78, 183, .5);
@@ -40,6 +43,10 @@ h1, h3, h6, p {
 .nav-title {
   z-index: 1000;
   opacity: 70%;
+  &:hover {
+    color: white;
+    opacity: 1;
+  }
 }
 .nav-button {
   z-index: 1000;
@@ -90,14 +97,6 @@ h1, h3, h6, p {
 .hide {
   visibility: hidden;
 }
-/*
-.grad-text {
-  background-image: linear-gradient(90deg,#7300FF, #FF00D0);
-  background-clip: text;
-  color: transparent
-  
-}*/
-
 .grad-text {
   background-image: linear-gradient(261deg,#ff00d0,#7300ff);
   background-size: 250% 250%;

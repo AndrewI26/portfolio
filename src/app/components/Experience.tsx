@@ -13,12 +13,12 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Experience() {
     useGSAP(() => {
         gsap.to([".exp-timeline"], {
-            height: '105em',
-            delay: 100,
+            height: '100%',
+            ease: "none",
             scrollTrigger: {
                 trigger: ".timeline-wrapper",
-                start: 'top center',
-                end: 'bottom center',
+                start: 'top center-=100',
+                end: 'bottom center-=100',
                 scrub: 3,
             },
         });
