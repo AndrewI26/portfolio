@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100%;
     z-index: -1000;
+    
 }
 .hero-container {
     height: 100vh;
@@ -12,6 +13,7 @@
     position: sticky;
     top: 10vh;
     z-index: -1000;
+    margin: 0 6vw;
 }
 .hero-small {
     margin-top: -7rem;

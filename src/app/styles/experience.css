@@ -4,7 +4,6 @@
     justify-content: center;
     height: 30vh;
     z-index: -99;
-    margin-bottom: -15%;
 }
 .exp-horizon {
     margin-top: 70vh;
@@ -24,6 +23,7 @@
     flex-direction: column;
     z-index: 1;
     margin: 0 10vw;
+    margin-top: -20vh;
 }
 .exp-timeline-wrapper {
     display: flex;

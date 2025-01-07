@@ -18,6 +18,7 @@
     -webkit-backdrop-filter: blur( 20px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     max-width: 35vw;
+    z-index: 10;
 }
 .project-card-info-wrapper {
     display: flex;
@@ -46,6 +47,7 @@
     height: 1rem;
     margin-left: -14px;
     margin-right: -14px;
+    z-index: 100;
 }
 .skill {
     font-weight: 300;
@@ -63,6 +65,7 @@
 }
 .project-heading {
     margin-bottom: 1.7rem;
+    z-index: 100;
 }
 .background-img-static {
     width: 40vw;
@@ -112,7 +115,7 @@
 .image {
     width: 48vw;
     height: 27vw;
-    min-width: 48vw;
+    z-index: 0;
 }
 .feat {
     font-size: calc(var(--base-size) * .8);

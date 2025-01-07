@@ -85,7 +85,7 @@ h1, h3, h6, p {
 }
 .black-wrapper {
   background-color: black;
-  z-index: 1;
+  z-index: -2;
 }
 .section-heading {
   z-index: 110;
@@ -136,5 +136,14 @@ h1, h3, h6, p {
   }
   #horizon {
     margin-top: 50vh;
+  }
+  #title {
+    font-size: 5rem;
+  }
+  #subtitle {
+    font-size: 3rem;
+  }
+  #purp {
+    margin-top: -50%;
   }
 }

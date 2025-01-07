@@ -25,8 +25,8 @@ export default function Hero() {
     return (
       <div className="hero-container">
         <h6 className="hero-small">Hi, my name is</h6>
-        <h1 className="hero-title">Andrew Iammancini</h1>
-        <h3 className="hero-subtitle">My coding skills are out of this world</h3>  
+        <h1 id="title" className="hero-title">Andrew Iammancini</h1>
+        <h3 id="subtitle" className="hero-subtitle">My coding skills are out of this world</h3>  
       </div>
     )
 }

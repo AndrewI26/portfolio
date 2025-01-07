@@ -41,7 +41,7 @@ export default function Skills() {
             <div className="framework-wrapper">
                 {frameworkContent}
             </div>
-            <div className="purple"></div>
+            <div id="purp" className="purple"></div>
         </div>
     )
 }
