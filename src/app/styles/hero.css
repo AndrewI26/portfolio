@@ -21,12 +21,14 @@
     margin-bottom: -3rem;
     transform-origin: 50% 100%;
     z-index: -1000;
+    text-align: center;
 }
 .hero-title {
     font-weight: 800;
     font-size: 6.5rem;
     transform-origin: 50% 100%;
     z-index: -1000;
+    text-align: center;
 }
 .hero-subtitle {
     font-weight: 700;
@@ -35,4 +37,5 @@
     margin-top: -1.5rem;
     transform-origin: 50% 100%;
     z-index: -1000;
+    text-align: center;
 }
