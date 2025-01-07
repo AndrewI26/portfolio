@@ -29,7 +29,7 @@ export default function Experience() {
             <div className="exp-ellipse-container">
                 <Image src={`/white.svg`} alt="White" className="exp-white" fill/>
                 <Image src={`/pink.svg`} alt="Pink" className="exp-pink" fill/>
-                <Image src={`/horizon.svg`} alt="Black" className="exp-horizon" fill/>
+                <Image src={`/horizon.svg`} alt="Black" id="horizon" className="exp-horizon" fill/>
             </div>
             <h3 className="section-heading">Experience</h3>
             <div className="exp-timeline-wrapper">

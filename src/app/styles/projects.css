@@ -7,6 +7,7 @@
 .project-card-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 100px;
     gap: -40vw;
 }
@@ -111,6 +112,7 @@
 .image {
     width: 48vw;
     height: 27vw;
+    min-width: 48vw;
 }
 .feat {
     font-size: calc(var(--base-size) * .8);

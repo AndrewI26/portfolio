@@ -20,10 +20,12 @@
     display: flex;
     margin-top: 5vh;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .framework-wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .center {
     text-align: center;
