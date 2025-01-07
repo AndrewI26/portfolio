@@ -20,7 +20,7 @@ export default function Navbar() {
                     <p className='nav-title'>Contact</p>
                 </Link>
             </div>
-            <div className='nav-button pointer' onClick={handleClick}>
+            <div id="res-button" className='nav-button pointer' onClick={handleClick}>
                 <p className='nav-button-text' >Resume</p>
             </div>
         </div>

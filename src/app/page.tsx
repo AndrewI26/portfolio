@@ -6,7 +6,7 @@ import "./styles/projects.css"
 import "./styles/skills.css"
 import "./styles/contact.css"
 
-import Layout from "./components/layout";
+import Layout from "./components/layout"
 
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";

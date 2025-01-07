@@ -146,4 +146,7 @@ h1, h3, h6, p {
   #purp {
     margin-top: -50%;
   }
+  #res-button {
+    visibility: hidden;
+  }
 }
