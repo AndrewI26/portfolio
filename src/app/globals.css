@@ -128,7 +128,7 @@ h1, h3, h6, p {
 }
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 10px;
   }
   #skills {
     margin-bottom: -20vh;
@@ -147,6 +147,9 @@ h1, h3, h6, p {
     margin-top: -50%;
   }
   #res-button {
+    visibility: hidden;
+  }
+  #nav {
     visibility: hidden;
   }
 }

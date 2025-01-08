@@ -5,8 +5,8 @@ export default function Navbar() {
         window.open("/res.pdf", '_blank');
     }
     return (
-        <div className='nav-total'>
-            <div className='nav-container'>
+        <div id="nav" className='nav-total'>
+            <div  className='nav-container'>
                 <Link href="#skills">
                     <p className='nav-title'>Skills</p>
                 </Link>
