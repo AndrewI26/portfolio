@@ -152,4 +152,7 @@ h1, h3, h6, p {
   #nav {
     visibility: hidden;
   }
+  #skill {
+    font-size: .75em;
+  }
 }

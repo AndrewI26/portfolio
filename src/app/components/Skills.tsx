@@ -22,7 +22,7 @@ export default function Skills() {
     
     const Skill = ({skill}:{skill:string}) => {
         return (
-            <div className="skill-tag">
+            <div id="skill" className="skill-tag">
                 {skill}
             </div>
         )
