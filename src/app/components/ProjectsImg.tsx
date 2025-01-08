@@ -16,7 +16,7 @@ export default function ProjectsImg({vidLink, picLink, isLeft}:{vidLink: string,
     return (
         <>
         {!isHovered ?
-            <div className={img} style={notHov} onMouseEnter={() => {setIsHovered(true)}}></div> :
+            <div className={img} style={notHov} onMouseEnter={() => {setIsHovered(true)}}><p className="hover-me">Hover me!</p></div> :
             <div onMouseLeave={() => {setIsHovered(false)}} className={img}>
                 <video width={"100%"} height={"100%"} autoPlay muted preload="auto">
                     <source src={vidLink} type="video/mp4"/>

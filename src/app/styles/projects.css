@@ -116,6 +116,9 @@
     width: 48vw;
     height: 27vw;
     z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .feat {
     font-size: calc(var(--base-size) * .8);
@@ -140,4 +143,10 @@
     align-items: center;
     margin-top: 20px;
     cursor: pointer;
+}
+.hover-me {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.603);
 }
