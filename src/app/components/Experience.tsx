@@ -39,7 +39,7 @@ export default function Experience() {
                         title="Formula Electric"
                         org="SOFTWARE DEVELOPER"
                         description="Worked with a team of 15 developers to write firmware for an electric Formula One car. Turned existing scripts into a fully isolated python package, using Poetry, that generates firmware written in C from a DBC file. This code is for ECU’s on a CAN bus network. Also developed a software in the loop testing system written in Go. The testing system uses gRPC and web sockets to simulate the sending of CAN frames to ECU code, to ensure firmware code has expected functionality for certain test cases."
-                        link="https://github.com/macformula"
+                        link="https://github.com/macformula/hil/pull/99"
                         isLeft={true}
                         isHidden={false}
                     />
