@@ -104,7 +104,7 @@
         justify-content: center;
     }
     .exp-timeline-half {
-        width: 87vw;
+        width: 80vw;
         height: 130em;
         display: flex;
         flex-direction: column;
@@ -129,7 +129,7 @@
         background-size: 100% 15px;
     }
     .exp-card-wrapper {
-        width: 70vw;
+        width: 80vw;
         height: 25rem;
         padding: 2rem;
     }
