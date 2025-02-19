@@ -30,7 +30,7 @@ export default function Experience() {
 
     return (
         <div id="experience">
-            {width > 470 ? 
+            {width >= 478 ? 
             <>
             <div className="exp-ellipse-container">
                 <Image src={`/white.svg`} alt="White" className="exp-white" fill/>
