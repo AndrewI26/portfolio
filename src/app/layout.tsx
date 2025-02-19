@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'Andrews Portfolio',
@@ -17,7 +18,10 @@ export default function RootLayout({
         <meta name="description" content="This is the home page description." />
         <link rel="icon" type="image/png" href="/favicon.ico"/>
       </Head>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
