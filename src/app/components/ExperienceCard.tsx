@@ -11,7 +11,7 @@ type Props = {
 }
 
 export default function ExperienceCard({number, title, org, description, link, isLeft, isHidden}: Props) {
-    const wrapperClassName = isLeft ? `exp-card-wrapper wrapper-right ${isHidden ? "hide" : ""}` : `exp-card-wrapper ${isHidden ? "hide" : ""}`
+    const wrapperClassName = isLeft ? `exp-card-wrapper wrapper-right ${isHidden ? "hide" : ""}` : `exp-card-wrapper left-exp-card ${isHidden ? "hide" : ""}`
     const descClassName = isLeft ? "small-text text-right" : "small-text"
     return (
         <div className={wrapperClassName}>

@@ -96,3 +96,41 @@
         transition: .5s;
     }
 }
+
+@media (max-width: 470px) {
+    #experience {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .exp-timeline-half {
+        width: 80vw;
+        height: 130em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .timeline-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 2px;
+        height: 120em;
+        background-image: linear-gradient(
+            #666666 0%,
+            #666666 25%,
+            #000000 25%,
+            #000000 50%,
+            #666666 50%,
+            #666666 75%,
+            #000000 75%,
+            #000000 100%
+        );
+        background-size: 100% 15px;
+    }
+    .exp-card-wrapper {
+        width: 70vw;
+        height: 25rem;
+        padding: 2rem;
+    }
+}
