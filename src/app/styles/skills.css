@@ -38,3 +38,12 @@
     z-index: -10;
     background: radial-gradient(ellipse at center, #7642DD -150%, black 80%);
 }
+
+@media (max-width: 478px) {
+    #skills {
+        padding: 0 10vw;
+        padding-top: 15vh;
+        z-index: 1000;
+        margin-top: -15vh;
+    }
+}
